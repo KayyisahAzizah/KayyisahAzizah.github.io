@@ -4,11 +4,8 @@ subtitle: "Metode Penelitian Politeknik APP Jakarta"
 author: "Kayyisah Wan Azizah Maharani"
 date: 2024-12-19
 number-sections: true
-format:
-  html: default
-  docx: 
-    toc : true
-    reference-doc : "Pengaruh Ekspor Udang Beku di Kabupaten Cilacap Terhadap Perekonomian Lokal.docx"
+[klik di sini untuk mengunduh laporan versi word](Pengaruh Ekspor Udang Beku di Kabupaten Cilacap Terhadap Perekonomian Lokal.docx)
+format: html
 editor: visual
 ---
 
