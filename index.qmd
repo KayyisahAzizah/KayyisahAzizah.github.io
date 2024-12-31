@@ -6,7 +6,7 @@ date: 2024-12-19
 number-sections: true
 format:
   html: default
-  docx: default
+  docx: Pengaruh Ekspor Udang Beku di Kabupaten Cilacap Terhadap Perekonomian Lokal.docx
 editor: visual
 ---
 
