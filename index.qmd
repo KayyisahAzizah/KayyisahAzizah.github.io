@@ -106,7 +106,7 @@ ggplot(data, aes(x = X, y = Y)) +
        x = "Ekspor Udang Beku (USD)",
        y = "Perekonomian Lokal (Pendapatan Daerah)") + theme_minimal()
 ```
-
+![](Scatterplot.png){fig-align="center"}
 Scatterplot Untuk Melihat Hubungan Antara X dan Y
 
 ### Metode analisis
@@ -168,7 +168,7 @@ Hasil regresinya adalah
 model<-lm(Y~X, data = data)
 summary(model)
 ```
-
+![](Plot regresi dengan garis tren.png){fig-align="center"}
 Uji asumsi regresi :
 
 -   Normalitas Residu
@@ -176,7 +176,7 @@ Uji asumsi regresi :
     ```{r}
     plot(model, which = 2)
     ```
-
+![](Normalitas Residu.png){fig-align="center"}
 <!-- -->
 
 -   Homoskedastisitas
@@ -184,7 +184,7 @@ Uji asumsi regresi :
     ```{r}
     plot(model, which = 3)
     ```
-
+![](Homoskedastisitas.png){fig-align="center"}
 ## Kesimpulan
 
 Hasil dari penelitian ini menunjukkan bahwa, walaupun Kabupaten Cilacap memiliki potensi besar pada ekspor udang beku tetapi pengaruh kontribusi ekspor udang beku dengan perekonomian lokal tidak signifikan. Ekspor udang beku tidak mempengaruhi perekonomian lokal, terdapat variabel lain atau faktor-faktor lain yang lebih dominan mempengaruhi perekonomian loka secara menyeluruh.
